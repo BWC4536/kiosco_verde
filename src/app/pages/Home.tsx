@@ -1,7 +1,6 @@
 import { Link } from "react-router";
 import { revistas } from "../data/revistas";
 import { useSolicitud } from "../context/SolicitudContext";
-import { CheckCircle, BookOpen, FileText } from "lucide-react";
 import logoImg from "../../imports/image.png";
 
 export function Home() {
@@ -81,12 +80,6 @@ export function Home() {
             >
               Mi solicitud
             </Link>
-            <a
-              href="#como-funciona"
-              className="px-7 py-3 rounded-full text-sm border border-[#3A3A3A]/20 text-[#6B6B6B] transition-all hover:bg-[#3A3A3A]/5 active:scale-95"
-            >
-              Cómo funciona
-            </a>
           </div>
 
           <p className="text-[#9B9B9B] text-xs">
@@ -146,7 +139,7 @@ export function Home() {
                     <p className="text-[#9B9B9B] text-xs mb-3">{revista.edicion}</p>
                     <button
                       onClick={() =>
-                        seleccionada ? quitar(revista.id) : agregar(revista)
+                      seleccionada ? quitar(revista.id) : agregar(revista)
                       }
                       className="w-full py-2 rounded-full text-xs transition-all active:scale-95"
                       style={
@@ -181,90 +174,11 @@ export function Home() {
         </section>
       )}
 
-      {/* Cómo funciona */}
-      <section
-        id="como-funciona"
-        className="py-16 px-4 sm:px-6 lg:px-8"
-        style={{ backgroundColor: "#F0FAF5" }}
-      >
-        <div className="max-w-5xl mx-auto">
-          <div className="text-center mb-12">
-            <p className="text-[#007D41] text-xs uppercase tracking-widest mb-2">Simple y rápido</p>
-            <h2
-              style={{
-                fontFamily: "'Playfair Display', serif",
-                fontWeight: 500,
-                color: "#1A1A1A",
-              }}
-            >
-              ¿Cómo funciona?
-            </h2>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {[
-              {
-                icon: <BookOpen size={28} />,
-                paso: "01",
-                titulo: "Elegí tu revista",
-                desc: "Explorá nuestro catálogo de revistas de moda internacionales y elegí las que querés.",
-              },
-              {
-                icon: <FileText size={28} />,
-                paso: "02",
-                titulo: "Completá el formulario",
-                desc: "Ingresá tu nombre, correo y teléfono. Podés solicitar hasta 1 unidad de cada título.",
-              },
-              {
-                icon: <CheckCircle size={28} />,
-                paso: "03",
-                titulo: "Confirmamos tu solicitud",
-                desc: "Te contactamos para coordinar la entrega o retiro de tu ejemplar en el kiosco.",
-              },
-            ].map(({ icon, paso, titulo, desc }) => (
-              <div
-                key={paso}
-                className="flex flex-col items-center text-center bg-white rounded-2xl p-8 shadow-sm"
-              >
-                <div
-                  className="w-14 h-14 rounded-full flex items-center justify-center mb-4"
-                  style={{ backgroundColor: "#E8F5EF", color: "#007D41" }}
-                >
-                  {icon}
-                </div>
-                <p className="text-[#007D41] text-xs tracking-widest mb-2">{paso}</p>
-                <h3
-                  className="mb-2"
-                  style={{
-                    fontFamily: "'Playfair Display', serif",
-                    fontWeight: 500,
-                    color: "#1A1A1A",
-                  }}
-                >
-                  {titulo}
-                </h3>
-                <p className="text-[#6B6B6B] text-sm leading-relaxed">{desc}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* CTA final */}
       <section className="py-20 px-4 text-center">
         <div className="max-w-xl mx-auto">
-          <h2
-            className="text-[#1A1A1A] mb-4"
-            style={{
-              fontFamily: "'Playfair Display', serif",
-              fontWeight: 500,
-              fontSize: "clamp(1.6rem, 4vw, 2.2rem)",
-            }}
-          >
-            ¿Lista para tu próxima lectura?
-          </h2>
           <p className="text-[#6B6B6B] text-sm mb-8 leading-relaxed">
-            Explorá las mejores revistas de moda del mundo y hacé tu solicitud sin costo.
+            Explora nuestras revistas aquí
           </p>
           <Link
             to="/revistas"

@@ -1,5 +1,4 @@
 import { Link } from "react-router";
-import { Heart, Leaf, Star } from "lucide-react";
 import logoImg from "../../imports/image.png";
 
 export function Nosotros() {
@@ -80,62 +79,6 @@ export function Nosotros() {
             >
               "La moda es el arte que llevamos puesto"
             </p>
-          </div>
-        </div>
-      </section>
-
-      {/* Values */}
-      <section className="py-16 px-4" style={{ backgroundColor: "#F0FAF5" }}>
-        <div className="max-w-5xl mx-auto">
-          <div className="text-center mb-12">
-            <p className="text-[#007D41] text-xs uppercase tracking-widest mb-2">
-              Lo que nos mueve
-            </p>
-            <h2
-              className="text-[#1A1A1A]"
-              style={{ fontFamily: "'Playfair Display', serif", fontWeight: 500 }}
-            >
-              Nuestros valores
-            </h2>
-          </div>
-
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
-            {[
-              {
-                icon: <Heart size={26} />,
-                titulo: "Pasión",
-                desc: "Seleccionamos cada revista con amor y criterio editorial. Solo trabajamos con publicaciones que genuinamente nos emocionan.",
-              },
-              {
-                icon: <Leaf size={26} />,
-                titulo: "Sostenibilidad",
-                desc: "Apostamos por un modelo de solicitudes que evita el desperdicio de stock, asegurando que cada ejemplar llegue a quien realmente lo desea.",
-              },
-              {
-                icon: <Star size={26} />,
-                titulo: "Calidad",
-                desc: "Trabajamos con las revistas de moda más prestigiosas del mundo, garantizando contenido de primer nivel en cada edición.",
-              },
-            ].map(({ icon, titulo, desc }) => (
-              <div
-                key={titulo}
-                className="bg-white rounded-2xl p-8 shadow-sm flex flex-col items-center text-center"
-              >
-                <div
-                  className="w-12 h-12 rounded-full flex items-center justify-center mb-4"
-                  style={{ backgroundColor: "#E8F5EF", color: "#007D41" }}
-                >
-                  {icon}
-                </div>
-                <h3
-                  className="text-[#1A1A1A] mb-2"
-                  style={{ fontFamily: "'Playfair Display', serif", fontWeight: 500 }}
-                >
-                  {titulo}
-                </h3>
-                <p className="text-[#6B6B6B] text-sm leading-relaxed">{desc}</p>
-              </div>
-            ))}
           </div>
         </div>
       </section>

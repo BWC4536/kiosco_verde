@@ -54,7 +54,7 @@ export function Contacto() {
           Contacto
         </h1>
         <p className="text-[#6B6B6B] text-sm max-w-md mx-auto leading-relaxed">
-          ¿Tenés alguna pregunta o sugerencia? Estamos para ayudarte.
+          ¿Tienes alguna pregunta o sugerencia? Estamos para ayudarte.
         </p>
       </section>
 
@@ -266,6 +266,19 @@ export function Contacto() {
               </form>
             )}
           </div>
+        </div>
+
+        {/* Mapa */}
+        <div className="mt-14 w-full h-[400px] rounded-2xl overflow-hidden shadow-sm">
+          <iframe
+            src="https://maps.google.com/maps?q=37.2876809,-6.0529084&t=&z=16&ie=UTF8&iwloc=&output=embed"
+            width="100%"
+            height="100%"
+            style={{ border: 0 }}
+            allowFullScreen={true}
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+          ></iframe>
         </div>
       </div>
     </div>

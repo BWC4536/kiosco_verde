@@ -23,7 +23,7 @@ export function Footer() {
               </span>
             </div>
             <p className="text-white/70 text-sm leading-relaxed max-w-xs">
-              Tu kiosco de revistas de moda de confianza. Solicita tu ejemplar favorito y lo reservamos para vos.
+              Tu kiosco de revistas de moda de confianza. Solicita tu ejemplar favorito y lo reservamos para ti.
             </p>
             <a
               href="https://instagram.com"
