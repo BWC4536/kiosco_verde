@@ -1,5 +1,5 @@
 import { Link, NavLink } from "react-router";
-import { ShoppingBag, Menu, X, Instagram } from "lucide-react";
+import { ShoppingBag, Menu, X, Facebook } from "lucide-react";
 import { useState } from "react";
 import { useSolicitud } from "../context/SolicitudContext";
 import logoImg from "../../imports/image.png";
@@ -54,12 +54,12 @@ export function Navbar() {
           {/* Right icons */}
           <div className="flex items-center gap-4">
             <a
-              href="https://instagram.com"
+              href="https://www.facebook.com/kiosco.verde.961/?locale=es_ES"
               target="_blank"
               rel="noopener noreferrer"
               className="text-[#3A3A3A] hover:text-[#007D41] transition-colors hidden md:block"
             >
-              <Instagram size={18} />
+              <Facebook size={18} />
             </a>
 
             <Link

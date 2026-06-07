@@ -42,23 +42,16 @@ export function Nosotros() {
                 fontSize: "clamp(1.5rem, 3vw, 2rem)",
               }}
             >
-              Nacimos del amor por la moda y la lectura
+              Un kiosco de barrio enamorado de las revistas de moda.
             </h2>
             <p className="text-[#6B6B6B] text-sm leading-relaxed mb-4">
-              Kiosco Verde nació con una misión simple: acercar las mejores
-              revistas de moda internacionales a quienes las aprecian. En un
-              mundo donde la información digital abunda, creemos que el placer de
-              hojear una revista impresa es insuperable.
+              Llevamos años cuidando cada portada como si fuera la primera, y ahora queremos compartirlas contigo.
             </p>
             <p className="text-[#6B6B6B] text-sm leading-relaxed mb-4">
-              Somos un pequeño equipo apasionado por la moda, el diseño y la
-              cultura. Curada nuestra selección con cuidado, priorizando revistas
-              de alta calidad editorial que inspiran y emocionan.
+              Cada número de nuestra estantería está pensado para inspirarte. Vendemos una unidad por persona, a solicitud, mientras dure el stock.
             </p>
             <p className="text-[#6B6B6B] text-sm leading-relaxed">
-              Nuestro sistema de solicitudes permite que puedas reservar tus
-              ejemplares favoritos sin complicaciones, y nosotros nos encargamos
-              del resto.
+              Gracias por pasarte. Esperamos que encuentres una revista que te enamore.
             </p>
           </div>
 
@@ -93,10 +86,10 @@ export function Nosotros() {
             fontSize: "clamp(1.5rem, 3vw, 2rem)",
           }}
         >
-          ¿Querés conocer nuestro catálogo?
+          ¿Quieres conocer nuestro catálogo?
         </h2>
         <p className="text-[#6B6B6B] text-sm mb-8">
-          Explorá todas las revistas disponibles y hacé tu solicitud sin costo.
+          Explora todas las revistas disponibles y haz tu solicitud sin costo.
         </p>
         <div className="flex flex-wrap gap-3 justify-center">
           <Link

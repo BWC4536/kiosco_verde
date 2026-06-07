@@ -34,7 +34,7 @@ export function Revistas() {
           Nuestras Revistas
         </h1>
         <p className="text-[#6B6B6B] text-sm max-w-md mx-auto leading-relaxed">
-          Seleccioná las revistas que querés y sumalas a tu solicitud. Stock de 15
+          Selecciona las revistas que quieres y súmalas a tu solicitud. Stock de 15
           unidades por edición.
         </p>
       </section>

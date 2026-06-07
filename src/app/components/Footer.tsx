@@ -1,5 +1,5 @@
 import { Link } from "react-router";
-import { Instagram, Mail, Phone } from "lucide-react";
+import { Facebook, Mail, Phone } from "lucide-react";
 import logoImg from "../../imports/image.png";
 
 export function Footer() {
@@ -26,13 +26,13 @@ export function Footer() {
               Tu kiosco de revistas de moda de confianza. Solicita tu ejemplar favorito y lo reservamos para ti.
             </p>
             <a
-              href="https://instagram.com"
+              href="https://www.facebook.com/kiosco.verde.961/?locale=es_ES"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 text-white/70 hover:text-white transition-colors text-sm w-fit"
             >
-              <Instagram size={16} />
-              @kioscoverde
+              <Facebook size={16} />
+              Kiosco Verde Avda
             </a>
           </div>
 
@@ -74,11 +74,11 @@ export function Footer() {
               </li>
               <li>
                 <a
-                  href="tel:+5491100000000"
+                  href="tel:000000000"
                   className="flex items-center gap-2 text-white/70 hover:text-white transition-colors text-sm"
                 >
                   <Phone size={15} />
-                  +54 9 11 0000-0000
+                  000000000
                 </a>
               </li>
             </ul>

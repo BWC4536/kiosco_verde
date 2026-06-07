@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Mail, Phone, Instagram, MapPin, CheckCircle } from "lucide-react";
+import { Mail, Phone, Facebook, MapPin, CheckCircle } from "lucide-react";
 
 export function Contacto() {
   const [form, setForm] = useState({ nombre: "", correo: "", mensaje: "" });
@@ -80,14 +80,14 @@ export function Contacto() {
                 {
                   icon: <Phone size={18} />,
                   titulo: "Teléfono",
-                  valor: "+54 9 11 0000-0000",
-                  href: "tel:+5491100000000",
+                  valor: "000000000",
+                  href: "tel:000000000",
                 },
                 {
-                  icon: <Instagram size={18} />,
-                  titulo: "Instagram",
-                  valor: "@kioscoverde",
-                  href: "https://instagram.com",
+                  icon: <Facebook size={18} />,
+                  titulo: "Facebook",
+                  valor: "Kiosco Verde Avda",
+                  href: "https://www.facebook.com/kiosco.verde.961/?locale=es_ES",
                 },
                 {
                   icon: <MapPin size={18} />,

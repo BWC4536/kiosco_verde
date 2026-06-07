@@ -61,8 +61,8 @@ export function Home() {
           </div>
 
           <p className="text-[#6B6B6B] text-sm leading-relaxed max-w-sm">
-            Explorá nuestro catálogo de las mejores revistas de moda del mundo y
-            solicitá tu ejemplar favorito.
+            Explora nuestro catálogo de las mejores revistas de moda del mundo y
+            solicita tu ejemplar favorito.
           </p>
 
           <div className="flex flex-wrap items-center justify-center gap-3 mt-2">
